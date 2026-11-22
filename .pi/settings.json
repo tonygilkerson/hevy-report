@@ -1,0 +1,26 @@
+{
+  "$schema": "https://pi.dev/schemas/settings.schema.json",
+  "defaultTools": [
+    "bash",
+    "read",
+    "edit",
+    "write",
+    "grep",
+    "find",
+    "ls"
+  ],
+  "defaultProjectTrust": "ask",
+  "extensions": [
+    "-builtin:mcp"
+  ],
+  "skills": [
+    "!**"
+  ],
+  "prompts": [
+    "!**"
+  ],
+  "themes": [
+    "!**"
+  ],
+  "theme": "system"
+}
