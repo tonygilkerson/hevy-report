@@ -10,10 +10,11 @@ Go CLI that queries the Hevy REST API and prints human-readable reports for work
 
 ## Project Layout
 
+- `docs/`: Concise per-endpoint API notes and curl examples
+- `testdata/`: Small redacted JSON fixtures for unit tests
 - `cmd/hevy-report/`: CLI entry point, subcommands, and flags
 - `internal/hevy/`: Hevy API client, typed models, pagination
 - `internal/report/`: Human-readable and JSON report formatters
-- `testdata/`: Small redacted JSON fixtures for unit tests
 
 ## Go & API Conventions
 

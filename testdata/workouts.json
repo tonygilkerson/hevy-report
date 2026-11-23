@@ -1,0 +1,104 @@
+{
+  "page": 1,
+  "page_count": 147,
+  "workouts": [
+    {
+      "id": "workout-001",
+      "title": "Sample Workout",
+      "routine_id": "6b7e72ad-0173-452e-938a-a192278468f7",
+      "description": "",
+      "start_time": "2026-11-20T18:32:08+00:00",
+      "end_time": "2026-11-20T19:27:06+00:00",
+      "updated_at": "2026-11-20T19:50:24.600Z",
+      "created_at": "2026-11-20T19:27:35.547Z",
+      "media": [
+        {
+          "url": "https://d2l9nsnmtah87f.cloudfront.net/profile-images/tonygilkerson-b5c0c341-0d6f-499a-afc6-cf22e904d751.jpg",
+          "type": "image"
+        }
+      ],
+      "exercises": [
+        {
+          "index": 0,
+          "title": "Squat (Machine)",
+          "notes": "",
+          "exercise_template_id": "CC35A01F",
+          "superset_id": null,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": 22.67964547178199,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "rpe": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": 22.67964547178199,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "rpe": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": 22.67964547178199,
+              "reps": 10,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "rpe": null,
+              "custom_metric": null
+            }
+          ],
+          "id": "ex-001"
+        },
+        {
+          "index": 1,
+          "title": "Bulgarian Split Squat (Machine)",
+          "notes": "",
+          "exercise_template_id": "278c7c99-57f6-4b54-9e9f-0f076fa364c9",
+          "superset_id": null,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": 9.071858188712795,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "rpe": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": 9.071858188712795,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "rpe": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": 9.071858188712795,
+              "reps": 10,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "rpe": null,
+              "custom_metric": null
+            }
+          ],
+          "id": "ex-001"
+        }
+      ]
+    }
+  ]
+}

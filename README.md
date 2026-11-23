@@ -25,3 +25,9 @@ unsloth start pi
 ```
 
 Use **Unsloth Desktop App** to chat out plans and use web search, use the pi coding agent for dev tasks in VSCode.
+
+## Prompt Examples
+
+* Implement Step 2 of `./plans/workouts-cmd.md` and run `go test ./...`
+* Implement `ListWorkouts` in `internal/hevy` and add a table-driven test using `httptest` and `testdata/workouts.json`. Inspect only the struct fields needed for workouts pagination and set/exercise summaries.
+* Read `./docs/routine.md` and `testdata/routines.json` before implementing routine fetching.
