@@ -1,6 +1,6 @@
 # Hevy CLI Report Tool
 
-Go CLI that queries the Hevy REST API and prints human-readable reports for workouts, routines, and exercise history.
+Go CLI that queries the Hevy REST API (https://api.hevyapp.com) and prints human-readable reports for workouts and routines.
 
 ## Commands
 
