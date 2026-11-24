@@ -6,7 +6,6 @@ GET v1/routines/{routineId} - Get a routine by its id
 
 * **routineId:** (path) - The id of the routine
 
-
 ## Sample Request
 
 ```sh
