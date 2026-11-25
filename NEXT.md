@@ -3,13 +3,10 @@
 
 #### Phase 2: Project Skeleton & CLI Design
 
-1. **Initialize Go module & folders:**
-2. 
-* `go mod init <module-name>`
-* Create `cmd/hevy-report/`, `internal/hevy/`, `internal/report/`, and `plans/`.
 
 
-2. **Lock down CLI subcommands & flags before coding:**
+
+1. **Lock down CLI subcommands & flags before coding:**
 * Subcommands: `workouts`, `routines`, `history` (e.g., `hevy-report workouts --limit 10`, `hevy-report routines`, `hevy-report history --template-id <id>` or `--exercise <name>`)
 * Global flags: `--json` (raw/structured JSON output), `--units` (`kg` or `lbs`, since Hevy returns `weight_kg`), `--page` / `--all` (pagination control)
 

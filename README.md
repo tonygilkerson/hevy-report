@@ -33,3 +33,10 @@ Use **Unsloth Desktop App** to chat out plans and use web search, use the pi cod
 * Read `./docs/routine.md` and `testdata/routines.json` before implementing routine fetching.
 * Read `docs/cli-design.md` and `./plans/00-reports.md`. Implement **Step 1** only, keeping changes scoped to `internal/report`.
 * Read `docs/endpoints/routine-get.md` and `docs/models/routine-exercise.md`, and inspect `testdata/routines.json`. Implement routine decoding and  `httptest` tests.
+
+## Dev
+
+```sh
+go build ./cmd/hevy-report && rm -f hevy-report
+echo "0 is good"; go vet ./...; echo $?
+```
