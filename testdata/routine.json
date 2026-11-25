@@ -1,0 +1,151 @@
+{
+  "routine": {
+    "id": "6a89e153-d5f2-4015-91c1-d741dc8902e8",
+    "title": "5 Upper C (Shoulder-dominant) ",
+    "folder_id": 3075139,
+    "updated_at": "2026-11-16T16:05:51.801Z",
+    "created_at": "2026-09-02T11:34:11.197Z",
+    "exercises": [
+      {
+        "index": 0,
+        "title": "Lateral Raise (Dumbbell)",
+        "notes": null,
+        "exercise_template_id": "422B08F1",
+        "superset_id": null,
+        "sets": [
+          {
+            "index": 0,
+            "type": "warmup",
+            "weight_kg": 4.535929094356398,
+            "reps": 15,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "custom_metric": null
+          },
+          {
+            "index": 1,
+            "type": "normal",
+            "weight_kg": 9.071858188712795,
+            "reps": 12,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "custom_metric": null
+          }
+        ],
+        "rest_seconds": 0
+      },
+      {
+        "index": 1,
+        "title": "Incline Bench Press (Barbell)",
+        "notes": null,
+        "exercise_template_id": "50DFDFAB",
+        "superset_id": null,
+        "sets": [
+          {
+            "index": 0,
+            "type": "normal",
+            "weight_kg": 20.41168092460379,
+            "reps": 20,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "custom_metric": null
+          },
+          {
+            "index": 1,
+            "type": "normal",
+            "weight_kg": 29.483539113316585,
+            "reps": 12,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "custom_metric": null
+          }
+        ],
+        "rest_seconds": 0
+      },
+      {
+        "index": 2,
+        "title": "Shoulder Press (Machine Plates)",
+        "notes": null,
+        "exercise_template_id": "059E835D",
+        "superset_id": null,
+        "sets": [
+          {
+            "index": 0,
+            "type": "warmup",
+            "weight_kg": 13.607787283069193,
+            "reps": 15,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "custom_metric": null
+          },
+          {
+            "index": 1,
+            "type": "normal",
+            "weight_kg": 18.14371637742559,
+            "reps": 12,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "custom_metric": null
+          }
+        ],
+        "rest_seconds": 0
+      },
+      {
+        "index": 3,
+        "title": "Shrug (Machine)",
+        "notes": null,
+        "exercise_template_id": "19A38071",
+        "superset_id": null,
+        "sets": [
+          {
+            "index": 0,
+            "type": "warmup",
+            "weight_kg": 40.82336184920758,
+            "reps": 20,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "custom_metric": null
+          },
+          {
+            "index": 1,
+            "type": "normal",
+            "weight_kg": 81.64672369841516,
+            "reps": 12,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "custom_metric": null
+          }
+        ],
+        "rest_seconds": 0
+      },
+      {
+        "index": 4,
+        "title": "Front Raise (Barbell)",
+        "notes": null,
+        "exercise_template_id": "BD86EFD5",
+        "superset_id": null,
+        "sets": [
+          {
+            "index": 0,
+            "type": "warmup",
+            "weight_kg": 9.071858188712795,
+            "reps": 15,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "custom_metric": null
+          },
+          {
+            "index": 1,
+            "type": "normal",
+            "weight_kg": 13.607787283069193,
+            "reps": 12,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "custom_metric": null
+          }
+        ],
+        "rest_seconds": 0
+      }
+    ]
+  }
+}

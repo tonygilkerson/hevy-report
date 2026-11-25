@@ -1,10 +1,10 @@
 {
   "page": 1,
-  "page_count": 21,
+  "page_count": 11,
   "routines": [
     {
-      "id": "routine-001",
-      "title": "Sample Routine",
+      "id": "6a89e153-d5f2-4015-91c1-d741dc8902e8",
+      "title": "5 Upper C (Shoulder-dominant) ",
       "folder_id": 3075139,
       "updated_at": "2026-11-16T16:05:51.801Z",
       "created_at": "2026-09-02T11:34:11.197Z",
@@ -12,7 +12,7 @@
         {
           "index": 0,
           "title": "Lateral Raise (Dumbbell)",
-          "notes": "",
+          "notes": null,
           "exercise_template_id": "422B08F1",
           "superset_id": null,
           "sets": [
@@ -33,15 +33,6 @@
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
-            },
-            {
-              "index": 2,
-              "type": "normal",
-              "weight_kg": 9.071858188712795,
-              "reps": 10,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
             }
           ],
           "rest_seconds": 0
@@ -49,7 +40,7 @@
         {
           "index": 1,
           "title": "Incline Bench Press (Barbell)",
-          "notes": "",
+          "notes": null,
           "exercise_template_id": "50DFDFAB",
           "superset_id": null,
           "sets": [
@@ -70,12 +61,87 @@
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 2,
+          "title": "Shoulder Press (Machine Plates)",
+          "notes": null,
+          "exercise_template_id": "059E835D",
+          "superset_id": null,
+          "sets": [
+            {
+              "index": 0,
+              "type": "warmup",
+              "weight_kg": 13.607787283069193,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
             },
             {
-              "index": 2,
+              "index": 1,
               "type": "normal",
-              "weight_kg": 43.091326396385774,
-              "reps": 10,
+              "weight_kg": 18.14371637742559,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 3,
+          "title": "Shrug (Machine)",
+          "notes": null,
+          "exercise_template_id": "19A38071",
+          "superset_id": null,
+          "sets": [
+            {
+              "index": 0,
+              "type": "warmup",
+              "weight_kg": 40.82336184920758,
+              "reps": 20,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": 81.64672369841516,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 4,
+          "title": "Front Raise (Barbell)",
+          "notes": null,
+          "exercise_template_id": "BD86EFD5",
+          "superset_id": null,
+          "sets": [
+            {
+              "index": 0,
+              "type": "warmup",
+              "weight_kg": 9.071858188712795,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": 13.607787283069193,
+              "reps": 12,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -83,8 +149,184 @@
           ],
           "rest_seconds": 0
         }
-      ],
-      "notes": ""
+      ]
+    },
+    {
+      "id": "ac9fe654-b412-499b-9180-cafedaef3618",
+      "title": "4 Lower B (Ham-dominant)",
+      "folder_id": 3075139,
+      "updated_at": "2026-11-13T18:14:09.932Z",
+      "created_at": "2026-08-11T00:04:04.176Z",
+      "exercises": [
+        {
+          "index": 0,
+          "title": "Hip Thrust (Machine)",
+          "notes": null,
+          "exercise_template_id": "68CE0B9B",
+          "superset_id": null,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": 40.82336184920758,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": 40.82336184920758,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 1,
+          "title": "Lying Leg Curl (Machine)",
+          "notes": null,
+          "exercise_template_id": "B8127AD1",
+          "superset_id": null,
+          "sets": [
+            {
+              "index": 0,
+              "type": "warmup",
+              "weight_kg": 13.607787283069193,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": 18.14371637742559,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": 22.67964547178199,
+              "reps": 10,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 2,
+          "title": "Back Extension (Weighted Hyperextension)",
+          "notes": null,
+          "exercise_template_id": "091737FA",
+          "superset_id": null,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": 9.071858188712795,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": 9.071858188712795,
+              "reps": 10,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 3,
+          "title": "Seated Calf Raise",
+          "notes": null,
+          "exercise_template_id": "062AB91A",
+          "superset_id": null,
+          "sets": [
+            {
+              "index": 0,
+              "type": "warmup",
+              "weight_kg": 9.071858188712795,
+              "reps": 20,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": 22.67964547178199,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 4,
+          "title": "Lying Knee Raise",
+          "notes": null,
+          "exercise_template_id": "BD5935CF",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 25,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 5,
+          "title": "Decline Crunch",
+          "notes": null,
+          "exercise_template_id": "BC10A922",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 25,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 25,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        }
+      ]
     }
   ]
 }

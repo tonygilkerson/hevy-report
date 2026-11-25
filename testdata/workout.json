@@ -1,0 +1,339 @@
+{
+  "id": "077c165b-09a3-4585-9fd2-04dbe776e3cd",
+  "title": "3 Upper B (Horiz-dominant)",
+  "routine_id": "c4cebbc1-6f4d-4c94-ba94-e1bb3a993eca",
+  "description": "",
+  "start_time": "2026-11-23T17:30:54+00:00",
+  "end_time": "2026-11-23T18:25:16+00:00",
+  "updated_at": "2026-11-24T00:43:31.679Z",
+  "created_at": "2026-11-23T18:25:59.075Z",
+  "media": [
+    {
+      "url": "https://d2l9nsnmtah87f.cloudfront.net/profile-images/tonygilkerson-a1d3f811-e8ac-48f7-8d61-9d9587ba0f53.jpg",
+      "type": "image"
+    },
+    {
+      "url": "https://d2l9nsnmtah87f.cloudfront.net/profile-images/tonygilkerson-f616e0ae-5a51-4ebf-9cdb-16907bcc5e56.jpg",
+      "type": "image"
+    },
+    {
+      "url": "https://d2l9nsnmtah87f.cloudfront.net/profile-images/tonygilkerson-484371c4-c258-4dd6-a699-c16eb551c85a.jpg",
+      "type": "image"
+    }
+  ],
+  "exercises": [
+    {
+      "index": 0,
+      "title": "Bench Press (Barbell)",
+      "notes": null,
+      "exercise_template_id": "79D0BB3A",
+      "superset_id": null,
+      "sets": [
+        {
+          "index": 0,
+          "type": "warmup",
+          "weight_kg": 20.41168092460379,
+          "reps": 20,
+          "distance_meters": null,
+          "duration_seconds": null,
+          "rpe": null,
+          "custom_metric": null
+        },
+        {
+          "index": 1,
+          "type": "warmup",
+          "weight_kg": 43.091326396385774,
+          "reps": 15,
+          "distance_meters": null,
+          "duration_seconds": null,
+          "rpe": null,
+          "custom_metric": null
+        },
+        {
+          "index": 2,
+          "type": "normal",
+          "weight_kg": 61.235042773811365,
+          "reps": 12,
+          "distance_meters": null,
+          "duration_seconds": null,
+          "rpe": null,
+          "custom_metric": null
+        },
+        {
+          "index": 3,
+          "type": "normal",
+          "weight_kg": 65.77097186816776,
+          "reps": 10,
+          "distance_meters": null,
+          "duration_seconds": null,
+          "rpe": null,
+          "custom_metric": null
+        },
+        {
+          "index": 4,
+          "type": "normal",
+          "weight_kg": 70.30690096252415,
+          "reps": 8,
+          "distance_meters": null,
+          "duration_seconds": null,
+          "rpe": null,
+          "custom_metric": null
+        },
+        {
+          "index": 5,
+          "type": "normal",
+          "weight_kg": 74.84283005688056,
+          "reps": 6,
+          "distance_meters": null,
+          "duration_seconds": null,
+          "rpe": null,
+          "custom_metric": null
+        },
+        {
+          "index": 6,
+          "type": "normal",
+          "weight_kg": 79.37875915123695,
+          "reps": 4,
+          "distance_meters": null,
+          "duration_seconds": null,
+          "rpe": null,
+          "custom_metric": null
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "title": "Iso-Lateral Row (Machine)",
+      "notes": null,
+      "exercise_template_id": "AA1EB7D8",
+      "superset_id": null,
+      "sets": [
+        {
+          "index": 0,
+          "type": "warmup",
+          "weight_kg": 40.82336184920758,
+          "reps": 20,
+          "distance_meters": null,
+          "duration_seconds": null,
+          "rpe": null,
+          "custom_metric": null
+        },
+        {
+          "index": 1,
+          "type": "warmup",
+          "weight_kg": 40.82336184920758,
+          "reps": 15,
+          "distance_meters": null,
+          "duration_seconds": null,
+          "rpe": null,
+          "custom_metric": null
+        },
+        {
+          "index": 2,
+          "type": "normal",
+          "weight_kg": 63.50300732098956,
+          "reps": 12,
+          "distance_meters": null,
+          "duration_seconds": null,
+          "rpe": null,
+          "custom_metric": null
+        },
+        {
+          "index": 3,
+          "type": "normal",
+          "weight_kg": 72.57486550970236,
+          "reps": 10,
+          "distance_meters": null,
+          "duration_seconds": null,
+          "rpe": null,
+          "custom_metric": null
+        },
+        {
+          "index": 4,
+          "type": "normal",
+          "weight_kg": 81.64672369841516,
+          "reps": 8,
+          "distance_meters": null,
+          "duration_seconds": null,
+          "rpe": null,
+          "custom_metric": null
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "Face Pull",
+      "notes": null,
+      "exercise_template_id": "BE640BA0",
+      "superset_id": null,
+      "sets": [
+        {
+          "index": 0,
+          "type": "warmup",
+          "weight_kg": 9.071858188712795,
+          "reps": 20,
+          "distance_meters": null,
+          "duration_seconds": null,
+          "rpe": null,
+          "custom_metric": null
+        },
+        {
+          "index": 1,
+          "type": "warmup",
+          "weight_kg": 9.071858188712795,
+          "reps": 15,
+          "distance_meters": null,
+          "duration_seconds": null,
+          "rpe": null,
+          "custom_metric": null
+        },
+        {
+          "index": 2,
+          "type": "normal",
+          "weight_kg": 13.607787283069193,
+          "reps": 12,
+          "distance_meters": null,
+          "duration_seconds": null,
+          "rpe": null,
+          "custom_metric": null
+        },
+        {
+          "index": 3,
+          "type": "normal",
+          "weight_kg": 19.27769865101469,
+          "reps": 10,
+          "distance_meters": null,
+          "duration_seconds": null,
+          "rpe": null,
+          "custom_metric": null
+        },
+        {
+          "index": 4,
+          "type": "normal",
+          "weight_kg": 22.67964547178199,
+          "reps": 8,
+          "distance_meters": null,
+          "duration_seconds": null,
+          "rpe": null,
+          "custom_metric": null
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "Bicep Curl (Barbell)",
+      "notes": null,
+      "exercise_template_id": "A5AC6449",
+      "superset_id": null,
+      "sets": [
+        {
+          "index": 0,
+          "type": "warmup",
+          "weight_kg": 9.071858188712795,
+          "reps": 20,
+          "distance_meters": null,
+          "duration_seconds": null,
+          "rpe": null,
+          "custom_metric": null
+        },
+        {
+          "index": 1,
+          "type": "normal",
+          "weight_kg": 18.14371637742559,
+          "reps": 12,
+          "distance_meters": null,
+          "duration_seconds": null,
+          "rpe": null,
+          "custom_metric": null
+        },
+        {
+          "index": 2,
+          "type": "normal",
+          "weight_kg": 22.67964547178199,
+          "reps": 10,
+          "distance_meters": null,
+          "duration_seconds": null,
+          "rpe": null,
+          "custom_metric": null
+        },
+        {
+          "index": 3,
+          "type": "normal",
+          "weight_kg": 27.215574566138386,
+          "reps": 8,
+          "distance_meters": null,
+          "duration_seconds": null,
+          "rpe": null,
+          "custom_metric": null
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "Lying Knee Raise",
+      "notes": null,
+      "exercise_template_id": "BD5935CF",
+      "superset_id": 0,
+      "sets": [
+        {
+          "index": 0,
+          "type": "normal",
+          "weight_kg": null,
+          "reps": 25,
+          "distance_meters": null,
+          "duration_seconds": null,
+          "rpe": null,
+          "custom_metric": null
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "Weighted Snow Angels",
+      "notes": null,
+      "exercise_template_id": "931e085c-1eb6-4247-bdb2-0132a796559b",
+      "superset_id": 0,
+      "sets": [
+        {
+          "index": 0,
+          "type": "normal",
+          "weight_kg": null,
+          "reps": null,
+          "distance_meters": null,
+          "duration_seconds": 119,
+          "rpe": null,
+          "custom_metric": null
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "Decline Crunch",
+      "notes": null,
+      "exercise_template_id": "BC10A922",
+      "superset_id": 0,
+      "sets": [
+        {
+          "index": 0,
+          "type": "normal",
+          "weight_kg": null,
+          "reps": 25,
+          "distance_meters": null,
+          "duration_seconds": null,
+          "rpe": null,
+          "custom_metric": null
+        },
+        {
+          "index": 1,
+          "type": "normal",
+          "weight_kg": null,
+          "reps": 25,
+          "distance_meters": null,
+          "duration_seconds": null,
+          "rpe": null,
+          "custom_metric": null
+        }
+      ]
+    }
+  ]
+}

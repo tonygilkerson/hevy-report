@@ -32,4 +32,4 @@ Use **Unsloth Desktop App** to chat out plans and use web search, use the pi cod
 * Implement `ListWorkouts` in `internal/hevy` and add a table-driven test using `httptest` and `testdata/workouts.json`. Inspect only the struct fields needed for workouts pagination and set/exercise summaries.
 * Read `./docs/routine.md` and `testdata/routines.json` before implementing routine fetching.
 * Read `docs/cli-design.md` and `./plans/00-reports.md`. Implement **Step 1** only, keeping changes scoped to `internal/report`.
-* 
+* Read `docs/endpoints/routine-get.md` and `docs/models/routine-exercise.md`, and inspect `testdata/routines.json`. Implement routine decoding and  `httptest` tests.
