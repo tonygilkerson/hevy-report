@@ -1,0 +1,16 @@
+MD004: false
+MD033: false
+MD013: false
+MD024: false
+MD029: false
+# MD036: false
+# MD034/no-bare-urls: Bare URL used
+MD034: false
+# "MD007": { "indent": 4 }
+# Change this rule from 2 to 4 to match the Mark Sharp Markdown Editor
+MD007:
+  indent: 2
+# Emphasis used instead of a heading
+MD036: false
+#  Images should have alternate text (alt text)
+MD045: false

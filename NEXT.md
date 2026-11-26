@@ -1,13 +1,11 @@
 ### Hevy CLI Report Tool (`hevy-report`) — Project Roadmap
 
-
 #### Phase 2: Project Skeleton & CLI Design
 
+**Lock down CLI subcommands & flags before coding:**
 
-
-
-1. **Lock down CLI subcommands & flags before coding:**
-* Subcommands: `workouts`, `routines`, `history` (e.g., `hevy-report workouts --limit 10`, `hevy-report routines`, `hevy-report history --template-id <id>` or `--exercise <name>`)
+* Subcommands: `workouts`, `routines`, `history` (e.g., `
+* hevy-report workouts --limit 10`, `hevy-report routines`, `hevy-report history --template-id <id>` or `--exercise <name>`)
 * Global flags: `--json` (raw/structured JSON output), `--units` (`kg` or `lbs`, since Hevy returns `weight_kg`), `--page` / `--all` (pagination control)
 
 
