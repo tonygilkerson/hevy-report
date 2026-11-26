@@ -4,7 +4,7 @@ Scope: Routines and workouts only (`GET /v1/routines`, `GET /v1/routine_folders`
 
 ## Steps
 
-* [ ] **Step 1 - Client & error types (`client.go`):** Define `Client` with base URL (`https://api.hevyapp.com/v1`), `api-key` header auth, configurable `*http.Client` timeout, `context.Context` on all requests, and an `APIError` struct (`StatusCode`, `Endpoint`, `Body`) implementing `error` and `Unwrap`.
+* [X] **Step 1 - Client & error types (`client.go`):** Define `Client` with base URL (`https://api.hevyapp.com/v1`), `api-key` header auth, configurable `*http.Client` timeout, `context.Context` on all requests, and an `APIError` struct (`StatusCode`, `Endpoint`, `Body`) implementing `error` and `Unwrap`.
 * [ ] **Step 2 - Models (`models.go`):** Define typed structs for routine pagination responses, routines, routine folders, workouts, exercises, and sets using pointer/nullable types where JSON fields can be `null`.
 * [ ] **Step 3 - Pagination helper (`client.go` or `paginate.go`):** Implement a page-fetching helper supporting `page`, `pageSize`, and an `all` mode that loops until `page >= page_count` with a safety cap.
 * [ ] **Step 4 - Endpoint methods (`routines.go`, `workouts.go`):** Implement `GetRoutines`, `GetRoutineFolders`, `GetWorkouts`, and `GetWorkoutByID`.
