@@ -42,3 +42,13 @@ Read the following:
 * internal/hevy/models.go
 
 Implement only Step 4 in `internal/hevy/`.
+
+## Prompt 5
+
+Read the following:
+
+* plans/01-hevy-client.md
+* docs/endpoints/workout-get.md
+* internal/hevy/models.go
+
+Implement only Step 5 in `internal/hevy/`.

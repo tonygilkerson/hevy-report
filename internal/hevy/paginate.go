@@ -15,7 +15,7 @@ type PaginationResponse interface {
 // It handles pagination by looping until page >= page_count with a safety cap.
 func FetchAllPages(
 	ctx context.Context, 
-	fetch func(page, pageSize int) (PaginationResponse, error)
+	fetch func(page, pageSize int) (PaginationResponse, error),
 ) ([]PaginationResponse, error) {
 	var responses []PaginationResponse
 	
