@@ -105,7 +105,7 @@ func (c *Client) GetRoutines(page, pageSize int) (*RoutineResponse, error) {
 		return nil, &APIError{
 			StatusCode: resp.StatusCode,
 			Endpoint:   endpoint,
-			Body:   resp.Status,
+			Body:       resp.Status,
 		}
 	}
 
