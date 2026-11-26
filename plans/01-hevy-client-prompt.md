@@ -41,4 +41,4 @@ Read the following:
 * docs/endpoints/folder-get.md
 * internal/hevy/models.go
 
-Implement only Step 3 in `internal/hevy/`.
+Implement only Step 4 in `internal/hevy/`.
