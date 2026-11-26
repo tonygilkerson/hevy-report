@@ -10,10 +10,30 @@ type RoutinePagination struct {
 	PageCount int `json:"page_count"`
 }
 
+// GetPage returns the current page number.
+func (r RoutinePagination) GetPage() int {
+	return r.Page
+}
+
+// GetPageCount returns the total number of pages.
+func (r RoutinePagination) GetPageCount() int {
+	return r.PageCount
+}
+
 // RoutineResponse represents a response containing routines.
 type RoutineResponse struct {
 	RoutinePagination
 	Routines []Routine `json:"routines"`
+}
+
+// GetPage returns the current page number.
+func (r RoutineResponse) GetPage() int {
+	return r.Page
+}
+
+// GetPageCount returns the total number of pages.
+func (r RoutineResponse) GetPageCount() int {
+	return r.PageCount
 }
 
 // RoutineFolderPagination represents the pagination information for routine folders.
@@ -22,10 +42,30 @@ type RoutineFolderPagination struct {
 	PageCount int `json:"page_count"`
 }
 
+// GetPage returns the current page number.
+func (r RoutineFolderPagination) GetPage() int {
+	return r.Page
+}
+
+// GetPageCount returns the total number of pages.
+func (r RoutineFolderPagination) GetPageCount() int {
+	return r.PageCount
+}
+
 // RoutineFolderResponse represents a response containing routine folders.
 type RoutineFolderResponse struct {
 	RoutineFolderPagination
 	RoutineFolders []RoutineFolder `json:"routine_folders"`
+}
+
+// GetPage returns the current page number.
+func (r RoutineFolderResponse) GetPage() int {
+	return r.Page
+}
+
+// GetPageCount returns the total number of pages.
+func (r RoutineFolderResponse) GetPageCount() int {
+	return r.PageCount
 }
 
 // WorkoutPagination represents the pagination information for workouts.
@@ -34,10 +74,30 @@ type WorkoutPagination struct {
 	PageCount int `json:"page_count"`
 }
 
+// GetPage returns the current page number.
+func (w WorkoutPagination) GetPage() int {
+	return w.Page
+}
+
+// GetPageCount returns the total number of pages.
+func (w WorkoutPagination) GetPageCount() int {
+	return w.PageCount
+}
+
 // WorkoutResponse represents a response containing workouts.
 type WorkoutResponse struct {
 	WorkoutPagination
 	Workouts []Workout `json:"workouts"`
+}
+
+// GetPage returns the current page number.
+func (w WorkoutResponse) GetPage() int {
+	return w.Page
+}
+
+// GetPageCount returns the total number of pages.
+func (w WorkoutResponse) GetPageCount() int {
+	return w.PageCount
 }
 
 // Routine represents a routine in Hevy.
