@@ -16,10 +16,12 @@ unsloth run --model unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF:Q4_K_M \
     --temp 0.7 \
     --top-p 0.8 \
     --top-k 20 \
-    --repeat-penalty 1.05 \
+    --repeat-penalty 1.08 \
     --reasoning off \
     --no-mmproj
 
+
+temperature=0.7, top_p=0.8, top_k=20) and introduce a light repetition penalty (around 1.05–1.1).
 # Start coding agent
 unsloth start pi
 ```

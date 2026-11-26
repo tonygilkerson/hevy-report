@@ -52,3 +52,14 @@ Read the following:
 * internal/hevy/models.go
 
 Implement only Step 5 in `internal/hevy/`.
+
+## Prompt 6
+
+Read the following:
+
+- plans/01-hevy-client.md
+- internal/hevy/client.go
+- internal/hevy/models.go
+- testdata/
+
+Implement only Step 6 in internal/hevy/client_test.go.
