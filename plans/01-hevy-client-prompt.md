@@ -30,4 +30,15 @@ Read the following:
 * docs/endpoints/workout-get.md
 * internal/hevy/models.go
 
-Implement only Step 3 in `internal/hevy/paginate.go`.
+Implement only Step 3 in `internal/hevy/`.
+
+## Prompt 4
+
+Read the following:
+
+* plans/01-hevy-client.md
+* docs/endpoints/routine-get.md
+* docs/endpoints/folder-get.md
+* internal/hevy/models.go
+
+Implement only Step 3 in `internal/hevy/`.
