@@ -19,3 +19,15 @@ Read the following:
 * docs/endpoints/workout-get-id.md
 
 Implement only Step 2 in `internal/hevy/models.go`.
+
+## Prompt 3
+
+Read the following:
+
+* plans/01-hevy-client.md
+* docs/endpoints/routine-get.md
+* docs/endpoints/folder-get.md
+* docs/endpoints/workout-get.md
+* internal/hevy/models.go
+
+Implement only Step 3 in `internal/hevy/paginate.go`.

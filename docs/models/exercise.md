@@ -15,4 +15,3 @@
   * `distance_meters` (number|null)
   * `duration_seconds` (number|null)
   * `custom_metric` (number|null) - Currently only used to log floors or steps for stair machine exercises
-
