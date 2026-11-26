@@ -4,7 +4,7 @@ CLI specification for querying Hevy routines and workouts and rendering human-re
 
 ## Subcommands
 
-- `hevy-report routines` — List saved routines and their exercises/sets (`GET /v1/routines`).
+- `hevy-report routines` — List saved routines (`GET /v1/routines`).
 - `hevy-report workouts` — List logged workouts (`GET /v1/workouts`), or fetch a single workout by ID (`hevy-report workouts <id>`).
 
 ## Flags
@@ -22,78 +22,41 @@ CLI specification for querying Hevy routines and workouts and rendering human-re
 - `--all` (`bool`, default `false`): Fetch pages until `page >= page_count` (with a safety cap).
 - `--since` (`string`, optional): Filter workouts on or after a date (`YYYY-MM-DD`) or RFC3339 timestamp.
 
-## Report Layouts (`routines`)
+## Report Headers
 
-### Rendering Rules
+- **`routines` header:** `<routine name> (folder: <folder name>)` — resolve `folder_id` via `GET /v1/routine_folders`; omit `(folder: ...)` if `folder_id` is `null`.
+- **`workouts` header:** `<workout title>` — use the workout `title` directly without extra API lookups.
 
-* **Folder name:** Resolve `folder_id` via `GET /v1/routine_folders` (omit `(folder: ...)` if `folder_id` is `null`).
-* **Exercises:** - See "Report Layouts (`exercises`)" section below
+## Shared Exercise & Set Layout
 
-### Level Templates
+- **Supersets:** Exercises with a non-null `superset_id` render with `- | <exercise name>` instead of `- <exercise name>`.
+- **Set labels:** `warmup` -> `W`, `dropset` -> `D`, `failure` -> `F`, `normal` -> 1-based working set counter (`1`, `2`, `3`).
+- **Null handling:** If `weight_kg` is `null`, omit weight; if `reps` is `null`, render `...`.
+- **Notes (`expanded`):** Prefix each non-empty line of routine/workout or exercise `notes` with `( `.
 
-* `--detail list`: `<routine name> (folder: <folder name>)`
-* `--detail compact`: routine line + `- <exercise name>` (or `- | <exercise name>`)
-* `--detail detailed` (default): `compact` + indented set rows (`<set label>  <weight> <units> X <reps> reps`)
-* `--detail expanded`: `detailed` + routine notes under routine line and exercise notes under exercise line
+### Verbosity Levels
 
-### Concrete Example (`--detail expanded`)
+- `list`: Header line only.
+- `compact`: Header line + `- <exercise name>` (or `- | <exercise name>`).
+- `detailed` (default): `compact` + indented set rows (`<set label>  <weight> <units> X <reps> reps`).
+- `expanded`: `detailed` + indented `( <note line>` entries under the header and under each exercise.
 
-```text
-Upper A (folder: YMCA)
-( focus on upper body
-( focus on slow full range during exercises
-- Lat Pulldown (Cable)
-    ( Go slow on this one, push out chest
-    W   60 lbs X 25 reps
-    W   60 lbs X 20 reps
-    1   75 lbs X 12 reps
-    2   90 lbs X 10 reps
-    3  105 lbs X  8 reps
-- | Crunch
-    1  X 25 reps
-- | Weighted Snow Angels
-    ...
-```
+### Example (`--detail expanded`, Routine)
 
-## Report Layouts (`workouts`)
-
-### Rendering Rules
-
-* **Routine name:** Resolve `routine_id` via `GET v1/routines/{routineId}` 
-* **Exercises:** - See "Report Layouts (`exercises`)" section below
-
-### Level Templates
-
-* `--detail list`: `<routine name> (folder: <folder name>)`
-* `--detail compact`: routine line + `- <exercise name>` (or `- | <exercise name>`)
-* `--detail detailed` (default): `compact` + indented set rows (`<set label>  <weight> <units> X <reps> reps`)
-* `--detail expanded`: `detailed` + routine notes under routine line and exercise notes under exercise line
-
-### Concrete Example (`--detail expanded`)
-
-```text
-Upper A
-( focus on upper body
-( focus on slow full range during exercises
-- Lat Pulldown (Cable)
-    ( Go slow on this one, push out chest
-    W   60 lbs X 25 reps
-    W   60 lbs X 20 reps
-    1   75 lbs X 12 reps
-    2   90 lbs X 10 reps
-    3  105 lbs X  8 reps
-- | Crunch
-    1  X 25 reps
-- | Weighted Snow Angels
-    ...
-```
-
-## Report Layouts (`exercises`)
-
-* **Supersets:** Exercises with a non-null `superset_id` render with `- | <exercise name>`.
-* **Set labels:** `warmup` -> `W`, `dropset` -> `D`, `failure` -> `F`, `normal` -> 1-based working set counter (`1`, `2`, `3`).
-* **Null handling:** If `weight_kg` is `null`, omit weight; if `reps` is `null`, render `...`.
-* **Notes (`expanded`):** Prefix each non-empty line of routine or exercise `notes` with `( `.
+    Upper A (folder: YMCA)
+    ( focus on upper body
+    ( focus on slow full range during exercises
+    - Lat Pulldown (Cable)
+        ( Go slow on this one, push out chest
+        W   60 lbs X 25 reps
+        W   60 lbs X 20 reps
+        1   75 lbs X 12 reps
+        2   90 lbs X 10 reps
+        3  105 lbs X  8 reps
+    - | Crunch
+        1  X 25 reps
+    - | Weighted Snow Angels
+        ...
 
 ## Output Behavior
 
