@@ -1,6 +1,6 @@
 # Prompt
 
-Give Pi each prompt one at a time
+Give Pi each prompt one at a time. Be sure enter the `/new` command before each prompt to start a fresh session.
 
 ## Prompt 1
 

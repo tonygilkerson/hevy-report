@@ -9,4 +9,4 @@ Scope: Routines and workouts only (`GET /v1/routines`, `GET /v1/routine_folders`
 * [X] **Step 3 - Pagination helper (`client.go` or `paginate.go`):** Implement a page-fetching helper supporting `page`, `pageSize`, and an `all` mode that loops until `page >= page_count` with a safety cap.
 * [X] **Step 4 - Endpoint methods (`routines.go`):** Implement `GetRoutines`, `GetRoutineFolderByID`.
 * [X] **Step 5 - Endpoint methods (`workouts.go`):** Implement `GetWorkouts`.
-* [ ] **Step 6 - Unit tests (`client_test.go`):** Add table-driven tests using `httptest.NewServer` and `testdata/*.json` covering auth headers, query params, pagination, `null` fields, and HTTP non-2xx errors.
+* [X] **Step 6 - Unit tests (`client_test.go`):** Add table-driven tests using `httptest.NewServer` and `testdata/*.json` covering auth headers, query params, pagination, `null` fields, and HTTP non-2xx errors.
