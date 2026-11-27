@@ -6,8 +6,10 @@ Give Pi each prompt one at a time. Be sure enter the `/new` command before each 
 
 Read the following:
 
-- plans/02-report-and-cli.md
-- docs/cli-design.md
-- internal/hevy/models.go
+* plans/02-report-and-cli.md
+* docs/cli-design.md
+* internal/hevy/models.go
+* internal/hevy/routines.go
+* internal/hevy/workouts.go
 
 Implement only Step 1 in `internal/report/`. Stop once `go build ./internal/report` succeeds.
