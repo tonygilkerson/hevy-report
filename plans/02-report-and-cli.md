@@ -1,6 +1,6 @@
 # Milestone 2: Report Formatting & CLI Wiring
 
-* [ ] **Step 1 - Report options & JSON output (`internal/report/`):** Define an `Options` struct (`JSON`, `Units`, `Detail`) and formatter entry points writing to an `io.Writer` for routines and workouts, implementing indented `--json` output.
+* [x] **Step 1 - Report options & JSON output (`internal/report/`):** Define an `Options` struct (`JSON`, `Units`, `Detail`) and formatter entry points writing to an `io.Writer` for routines and workouts, implementing indented `--json` output.
 
 * [ ] **Step 2 - Text report formatting routines (`internal/report/`):** Implement concrete text formatting functions or methods for routines using shared exercise/set rules, `null`-safe optional fields.
 
