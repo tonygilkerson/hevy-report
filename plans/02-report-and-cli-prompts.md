@@ -14,7 +14,7 @@ Read the following:
 
 Implement only Step 1 in `internal/report/`. Stop once `go build ./internal/report` succeeds.
 
-Prompt 1 take 2:
+take 2:
 
 Read the following:
 
